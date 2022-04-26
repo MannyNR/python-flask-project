@@ -66,7 +66,9 @@ def endpoint(id=None):
             return jsonify(movielist)
 
     if request.method == 'PUT':
-        return 'PUT request'
+        update_movie = request.get_json()
+        Movie.update(update_movie).where(Movie.id == id).execute()
+        return "Movie updated"
 
     if request.method == 'POST':
         new_movie = dict_to_model(Movie, request.get_json())
@@ -74,7 +76,9 @@ def endpoint(id=None):
         return jsonify({"success": True})
 
     if request.method == 'DELETE':
-        return 'DELETE request'
+        deleted = Movie.delete().where(Movie.id == id)
+        deleted.execute()
+        return jsonify({"deleted": True})
 
 
 app.run(debug=True)
