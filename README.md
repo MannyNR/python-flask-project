@@ -18,7 +18,7 @@ An API of superhero movies built in Python and Flask, using a SQL database with 
 
 ## CRUD in action
 
-=========================
+---
 
 ### GET
 
