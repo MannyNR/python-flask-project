@@ -4,8 +4,6 @@ An API of superhero movies built in Python and Flask, using a SQL database with 
 
 ---
 
-## Installation
-
 ## API Endpoints
 
 |   Description    |   Endpoints   | Operators |
@@ -15,6 +13,7 @@ An API of superhero movies built in Python and Flask, using a SQL database with 
 | Add a new movie  |   `/movie`    |  `POST`   |
 |  Update a movie  | `/movie/<id>` |   `PUT`   |
 |  Delete a movie  | `/movie/<id>` | `DELETE`  |
+
 
 ## CRUD in action
 
