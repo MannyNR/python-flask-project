@@ -43,7 +43,6 @@ Movie(position="2", const="tt4154796", created="2019-05-07", modified="2019-05-0
 Movie(position="3", const="tt4154756", created="2018-08-06", modified="2018-08-06", description="", title="Avengers: Infinity War", url="https://www.imdb.com/title/tt4154756/", title_type="movie",
       imdb_rating=8.5, runtime_mins=149, year=2018, genres="Action, Adventure, Sci-Fi", num_votes=997179, release_date="2018-04-23", directors="Anthony Russo, Joe Russo").save()
 
-
 Movie(position="4", const="tt3315342", created="2017-03-06", modified="2017-03-06", description="", title="Logan", url="https://www.imdb.com/title/tt3315342/", title_type="movie",
       imdb_rating=8.1, runtime_mins=137, year=2017, genres="Action, Drama, Sci-Fi, Thriller", num_votes=721122, release_date="2017-02-17", directors="James Mangold").save()
 
